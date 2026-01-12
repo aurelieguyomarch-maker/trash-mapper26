@@ -1,0 +1,58 @@
+{
+  "name": "Trash Mapper",
+  "short_name": "Trash Mapper",
+  "description": "Application participative de nettoyage de la planète - Deviens un serial cleaner !",
+  "theme_color": "#53fab5",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "id": "/",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["utilities", "lifestyle", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Carte interactive avec géolocalisation des déchets"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Déclarer un déchet",
+      "short_name": "Déclarer",
+      "description": "Ajouter un nouveau déchet sur la carte",
+      "url": "/?action=add",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Voir la carte",
+      "short_name": "Carte",
+      "description": "Afficher tous les déchets",
+      "url": "/",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    }
+  ]
+}
